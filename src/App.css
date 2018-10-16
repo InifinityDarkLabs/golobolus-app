@@ -1,0 +1,16 @@
+/* WebFonts */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+html,
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+.navigation {
+}
