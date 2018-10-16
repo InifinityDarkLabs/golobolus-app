@@ -21,7 +21,8 @@ export default function Landing() {
               suscipit felis. Duis tincidunt lacus bibendum lacus tempus
               ultrices. Aliquam dictum dui et nunc porta elementum at et quam.
               Sed gravida pharetra bibendum.
-              <p>&nbsp;</p>
+            </p>
+            <p className="paragraph darken">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               eu rutrum libero. Orci varius natoque penatibus et magnis dis
               parturient montes, nascetur ridiculus mus. Nullam faucibus, est id

@@ -24,6 +24,7 @@ body {
 
 .navbar {
   font-family: "Special Elite", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .brand-logo {
@@ -46,8 +47,7 @@ body {
 }
 
 .text {
-  font-weight: bolder;
-  font-size: 5vw;
+  font: 5vw bolder;
   font-family: "Special Elite", cursive;
   text-align: center;
   margin: 0;
@@ -59,6 +59,7 @@ body {
   font-family: "Special Elite", cursive;
   margin: 0;
   border: 0px solid;
+  padding: 25px 0;
 }
 
 .multiply {
@@ -86,3 +87,9 @@ body {
 }
 
 /* end Landing CSS */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 30px;
+  line-height: 30px;
+}

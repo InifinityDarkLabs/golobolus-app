@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer fixed-bottom">
       <div className="row">
         <div className="col w-100 pr-5 text-right">
-          Copyright &copy; Golobolus.com
+          Copyright&copy; {new Date().getFullYear()} GSolutions
         </div>
       </div>
     </footer>
