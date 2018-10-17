@@ -4,8 +4,8 @@ export default function Landing() {
   return (
     <div className="container-fluid landing">
       <div className="row mt-5 pt-5">
-        <div className="col-2">&nbsp;</div>
-        <div className="col-8 h-100 w-50 main-content">
+        <div className="col-0">&nbsp;</div>
+        <div className="col-8 col-sm-12 h-100 w-100 main-content">
           <div className="backdrop">
             <p className="text multiply">Malaya ka bang talga?</p>
           </div>
@@ -41,7 +41,7 @@ export default function Landing() {
               hendrerit dui posuere eu.
             </p>
           </div>
-          <div className="col-2">&nbsp;</div>
+          <div className="col-1 col-sm-1">&nbsp;</div>
         </div>
       </div>
     </div>

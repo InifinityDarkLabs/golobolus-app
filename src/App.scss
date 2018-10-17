@@ -1,0 +1,92 @@
+/* WebFonts */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Special+Elite");
+
+/* 
+Usage:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Special Elite', cursive;
+*/
+
+html,
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: "Special Elite", cursive;
+  font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family: "Special Elite", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .brand-logo {
+    font-size: 1.5vw;
+  }
+}
+
+// Landing main-content
+
+.main-content {
+  .backdrop {
+    background: url("./img/bg.jpg") center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    width: 50vw;
+  }
+
+  .backdrop-content {
+    background: url("./img/bg.jpg") center;
+    background-size: cover;
+    margin: auto;
+    width: 50vw;
+  }
+
+  .text {
+    font: 5vw bolder;
+    font-family: "Special Elite", cursive;
+    text-align: center;
+    margin: 0;
+    border: 0px solid;
+  }
+
+  .paragraph {
+    font-family: "Special Elite", cursive;
+    margin: 0;
+    border: 0px solid;
+    padding: 25px 0;
+  }
+
+  .multiply {
+    color: white;
+    mix-blend-mode: multiply;
+    background-color: rgba(59, 2, 6, 1);
+  }
+
+  .screen {
+    color: black;
+    mix-blend-mode: screen;
+    background-color: rgba(244, 220, 211, 1);
+  }
+
+  .darken {
+    color: white;
+    mix-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .lighten {
+    color: black;
+    mix-blend-mode: lighten;
+    background-color: rgba(244, 220, 211, 1);
+  }
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 30px;
+  line-height: 30px;
+}

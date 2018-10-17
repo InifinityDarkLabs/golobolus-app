@@ -2,11 +2,11 @@ version: '3.5'
 
 services:
 
-  dev-app:
-    container_name: golobolus-app
+  golobolus-app:
     build:
       context: .
       dockerfile: Dockerfile
+    image: golobolus-app:latest
     volumes:
       - '.:/usr/src/app'
       - '/usr/src/app/node_modules'
