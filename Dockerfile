@@ -1,5 +1,5 @@
 # base image
-FROM node:20.11
+FROM node:21.5.0-slim
 
 # set working directory
 RUN mkdir /usr/src/app
